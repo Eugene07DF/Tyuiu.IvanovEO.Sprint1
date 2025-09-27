@@ -1,0 +1,21 @@
+﻿using Tyuiu.IvanovEO.Sprint1.Task0.V14.Lib;
+
+DataService ds = new DataService();
+Console.Title = "Спринт #1 | Выполнил: Иванов Е. О. | ПИНб-25-1";
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* Спринт #1                                                               *");
+Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+Console.WriteLine("* Задание #14                                                             *");
+Console.WriteLine("* Вариант #0                                                              *");
+Console.WriteLine("* Выполнил: Иванов Евгений Олегович | ПИНб-25-1                           *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine("* УСЛОВИЕ:                                                                *");
+Console.WriteLine("*Написать консольную программу на C#, которая вычисляет 2*3*3+7 и          ");
+Console.WriteLine("*   выводит на экран значение выражения                                   *");
+Console.WriteLine("* УСЛОВИЕ:                                                               *");
+Console.WriteLine("*   ИСХОДНЫЕ ДАННЫЕ:                                                      *");
+Console.WriteLine("*                                                                         *");
+Console.WriteLine("* Результат                                                               *");
+Console.WriteLine("***************************************************************************");
+Console.WriteLine(ds.Calculate());
+Console.ReadLine();
