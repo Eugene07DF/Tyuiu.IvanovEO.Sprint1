@@ -5,8 +5,8 @@ namespace Tyuiu.IvanovEO.Sprint1.Task2.V11.Lib
     {
         public int ConvertHoursMinutesToSeconds(int value, int valueTwo)
         {
-            Console.WriteLine(value * 360 + valueTwo * 60);
-            return value * 360 + valueTwo * 60;
+            Console.WriteLine(value * 3600 + valueTwo * 60);
+            return value * 3600 + valueTwo * 60;
         }
     }
 }

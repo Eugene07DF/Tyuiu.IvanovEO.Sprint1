@@ -11,7 +11,7 @@ namespace Tyuiu.IvanovEO.Sprint1.Task2.V11.Test
             int x = 2;
             int y = 3;
             var res = ds.ConvertHoursMinutesToSeconds(x, y);
-            Assert.AreEqual(900, res);
+            Assert.AreEqual(7380, res);
         }
     }
 }
